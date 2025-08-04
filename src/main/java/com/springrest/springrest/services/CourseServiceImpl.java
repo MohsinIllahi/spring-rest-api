@@ -54,4 +54,10 @@ public class CourseServiceImpl implements CourseService {
 		return course;
 	}
 
+	@Override
+	public Course deleteCourse(long courseId) {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'deleteCourse'");
+	}
+
 }
